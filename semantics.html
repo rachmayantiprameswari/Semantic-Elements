@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style type="text/css"> 
+
+.border {
+    display: flex;
+    width: 1321px;
+    border: solid black 1px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    }
+
+
+.nav {
+     background-color:lightblue;
+     border: black solid 1px;
+     box-sizing: border-box;
+     padding-top: 17px;
+     padding-left: 17px;
+     width:300px;
+     } 
+
+.content1 {
+     background-color:#f4f3f1;
+     border: black solid 1px;
+     padding-left: 7px;
+     box-sizing: border-box;
+     width:1019px;
+     height:auto;
+     }
+
+.content2 {
+     background-color:#f4f3f1;
+     width:auto;
+     height:auto;
+     padding-bottom: 10px;
+     }
+
+.container1 {
+    border: black solid 1px;
+    background-color:#acb3b9;
+    width:auto;
+    height:auto;
+    margin-left: 7 px;
+    margin-right: 7px;
+  }
+
+ .container2 {
+    border: black solid 1px;
+    text-align: center;
+    background-color:#acb3b9;
+    width: 1000px;
+    height:auto;
+    margin-left: 0px;
+    margin-right: 8px;}
+
+.footer{
+    background-color:#acb3b9;
+    border: black solid 1px;
+    padding: 10px;
+    width: 1340px;
+    }
+
+ .title{
+    width: 100%;
+    height: 20px;
+    background-color:lightgrey ;
+    margin-top:-20px ;}
+
+input{
+    margin: 5px 0;
+}
+
+</style>
+</head>
+<body>
+<header><h2 style="text-align: center;">My Header</h2></header>
+<div class="border">
+    <aside class="nav" >
+        <input type="input" name="username" placeholder="Username..." /><br/>
+        <input type="password" name="Password" placeholder="Password..." /><br/>
+        <button type="Login" onclick="loginProjectDetails()">Login</button>
+        <button type="Daftar" onclick="daftarProjectDetails()">Daftar</button>
+            <ul>
+                <li><a href="#">Home</a><br></li>
+                <li><a href="#">About</a><br></li>
+                <li><a href="#">Access</a><br></li>
+                <li><a href="#">Contact</a><br></li>
+            </ul>
+    </aside>
+    <nav class="content1" style="padding-right: 1px;">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla commodo ullamcoper sagittis. Sed tempus, libero quis blandit consectetur, ligula mauris ornare est, a fringilla nulla quam id augue. Ut sapien nisl, aliquet malesuada mattis non, lacinia eget est. Phasellus eget pharetra erat. Nunc sed bibendum diam. Ut ullamcorper, lectus tristique cursus dapibus, tellus metus ornae turpis, varius faucibus lacus elit sed tortor. In quis velit ex.
+        </p>
+        <div class="content2">
+            <div style="display: flex;">
+                <section class="container1">
+                    <div class="title"><h4>First paragraph</h4></div>
+                    <p>
+                    <video  autoplay="autoplay" controls="controls" loop="true" width="327px">
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/raft.mp4" type="video/mp4"/>
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/raft.ogg" type="video/ogg"/>
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/raft.webm" type="video/webm"/>
+                        <embed src="http://www.WebSiteDevelopmentBook.com/Chapter18/raft.mp4" height="240" width="320"></embed>
+                        <object src="http://www.WebSiteDevelopmentBook.com/Chapter18/raft.mp4" height="240" width="320"></object>
+                    </video>
+                    </p>
+                </section>
+                <section class="container1">
+                    <div class="title"><h4>Second paragraph</h4></div>
+                    <p>
+                    <video  autoplay="autoplay" controls="controls" loop="true"width="327px" >
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/raft.mp4" type="video/mp4"/>
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/raft.ogg" type="video/ogg"/>
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/raft.webm" type="video/webm"/>
+                        <embed src="http://www.WebSiteDevelopmentBook.com/Chapter18/raft.mp4" height="240" width="320"></embed>
+                        <object src="http://www.WebSiteDevelopmentBook.com/Chapter18/raft.mp4" height="240" width="320"></object>
+                    </video>
+                    </p>
+                </section>
+                <section class="container1">
+                    <div class="title"><h4>Third paragraph</h4></div>
+                    <p>
+                    <video  autoplay="autoplay" controls="controls" loop="true" width="327px">
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/raft.mp4" type="video/mp4"/>
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/raft.ogg" type="video/ogg"/>
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/raft.webm" type="video/webm"/>
+                        <embed src="http://www.WebSiteDevelopmentBook.com/Chapter18/raft.mp4" height="240" width="320"></embed>
+                        <object src="http://www.WebSiteDevelopmentBook.com/Chapter18/raft.mp4" height="240" width="320"></object>
+                    </video>
+                    </p>
+                </section>
+            </div>
+            <div style="display: flex;">
+                <article class="container2">
+                    <p>
+                    <audio  autoplay="autoplay" controls="controls" loop="true">
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/sitari.mp3" type="audio/mp3"/>
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/sitari.ogg" type="audio/ogg"/>
+                        <embed src="http://www.WebSiteDevelopmentBook.com/Chapter18/sitari.mp3"></embed>
+                        <object src="http://www.WebSiteDevelopmentBook.com/Chapter18/sitari.mp3"></object>
+                    </audio>
+                    </p>
+                </article>
+                <article class="container2">
+                    <p>
+                    <audio  autoplay="autoplay" controls="controls" loop="true">
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/sitari.mp3" type="audio/mp3"/>
+                        <source src="http://www.WebsiteDevelopmentBook.com/Chapter18/sitari.ogg" type="audio/ogg"/>
+                        <embed src="http://www.WebSiteDevelopmentBook.com/Chapter18/sitari.mp3"></embed>
+                        <object src="http://www.WebSiteDevelopmentBook.com/Chapter18/sitari.mp3"></object>
+                    </audio>
+                    </p>
+                </article>
+            </div>
+        </div>
+    </nav>
+    <footer class="footer" style="text-align: center;" >my footer</footer>
+</div>
+</body>
+</html>
